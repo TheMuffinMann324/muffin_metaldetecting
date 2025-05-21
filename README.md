@@ -64,6 +64,7 @@ Requirements
 * As they move around, the beeping sound gets faster when they get closer to a treasure.
 * When close enough to the treasure, an interaction option to dig appears.
 * After digging, players receive a random reward based on the configuration.
+* Players can use the /detectingboard command to show the leaderboard. Sql should be done automatically on first start
 
 
 # Support
