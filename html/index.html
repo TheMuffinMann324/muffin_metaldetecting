@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metal Detecting Leaderboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="leaderboard-container" class="hidden">
+        <div class="leaderboard-header">
+            <h1>TREASURE HUNTING LEADERBOARD</h1>
+            <div class="close-btn"></div>
+        </div>
+        <div class="leaderboard-tabs">
+            <button class="tab active" data-tab="items">ITEMS FOUND</button>
+            <button class="tab" data-tab="value">VALUE FOUND</button>
+        </div>
+        <div class="leaderboard-content">
+            <table id="leaderboard-table">
+                <thead>
+                    <tr>
+                        <th>RANK</th>
+                        <th>PLAYER</th>
+                        <th class="items-header">TOTAL ITEMS</th>
+                        <th class="value-header hidden">TOTAL VALUE</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboard-body">
+                    <!-- Leaderboard data will be inserted here -->
+                </tbody>
+            </table>
+        </div>
+        <div class="player-stats">
+            <h2>YOUR STATS</h2>
+            <div id="player-stats-content">
+                <!-- Player stats will be inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
